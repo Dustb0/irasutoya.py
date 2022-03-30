@@ -4,7 +4,7 @@ from requests_html import HTMLSession
 
 class Irasutoya:
 
-  def get_image(term):
+  def get_images(term):
     # Run JavaScript code on webpage
     session = HTMLSession()
     resp = session.get('https://www.irasutoya.com/search?q=' + quote(term))    
@@ -15,6 +15,6 @@ class Irasutoya:
 
     images = []
     for element in elements:
-     images.append(element['src'])
+      images.append(element['src'])
 
     return images
