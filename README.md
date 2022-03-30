@@ -1,5 +1,5 @@
 # irasutoya.py
-Get images from irasutoya.com with search terms in Japanese. English is currently not supported.
+Get images from irasutoya.com with search terms in Japanese. English is currently not supported. Web scraping is used to retrieve the images.
 
 ![alt text](/readme.png)
 
